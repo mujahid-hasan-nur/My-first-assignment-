@@ -1,0 +1,482 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Merriweather', serif;
+}
+.container{
+    max-width: 1320px;
+    width: 100%;
+    margin: auto;
+}
+header{
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)),url('../Styles/image/Banner\ Image.png');
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 100px;
+}
+.banner-title{
+    text-align: center;
+}
+.banner-title h1{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 95px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+.banner-title h3{
+    color: beige;
+    font-size: 30px;
+    padding-top: 200px;
+}
+.main{
+    width: 100%;
+}
+
+.cataegory-section{
+    margin: auto;
+    align-items: center;
+    padding: 40px 0px;
+}
+.cataegory-section h1{
+    font-size: 88px;
+    text-align: center;
+    font-weight: 800;
+    color: red;
+}
+.cataegory-section h3{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 25px;
+    color: black;
+}
+.cataegory-section p{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 43px;
+    color: red;
+}
+.newyear-pic{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 500px;
+    margin: auto;
+}
+
+.mid-section{
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.2)),url('../Styles/image/Vectorrr.png');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* .midnight{
+
+} */
+.mid-section{
+    padding-top: 200px;
+    padding-left: 125px;
+}
+.mid-section h1{
+    font-size: 64px;
+    font-weight: 800px;
+    color: white;
+    text-align: left;
+    line-height: 96px;
+}
+.mid-section p{
+    width: 700px;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.mid-section a{
+    font-size: 21px;
+    font-weight: bold;
+    padding-left: 26px;
+    color: white;
+    text-decoration: none;
+}
+
+.pk-section{
+    padding: 100px 0;
+    margin: auto;
+}
+
+.pk-content{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.pk-content p{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 36px;
+    color: black;
+}
+.pk-content span{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 60px;
+    color: red;
+}
+.pk-content button{
+    display: flex;
+    justify-content: center;
+    width: 167px;
+    height: 56px;
+    background-color: red;
+    color: white;
+    align-items: center;
+    margin: 10px auto;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.ofr-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0px;
+}
+.ofr-01 span{
+    font-size: 24px;
+    font-weight: 400px;
+    color: red;
+    text-align: left;
+}
+.ofr-01 h3{
+    font-size: 48px;
+    font-weight: 800px;
+    color: black;
+    padding: 10px 0px;
+    text-align: left;
+}
+.ofr-01 p{
+    width: 393px;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+}
+
+.Ellipse{
+    width: 364px;
+    height: 364px;
+    margin: auto;
+    border-radius: 50%;
+    border: 10px solid red;
+    padding: 15px;
+}
+.ofr-03{
+    padding-right: 0px;
+}
+.ofr-03 h3{
+    font-size: 48px;
+    text-align: left;
+    font-weight: bold;
+    color: red;
+    padding-bottom: 15px;
+}
+.ofr-03 p{
+    width: 276px;
+    font-size: 20px;
+    color: black;
+    padding-bottom: 30px;
+}
+.group70{
+    width: 140px;
+    height: 140px;
+}
+
+.HOLIDAY-section{
+    padding: 45px 0;
+    align-items: center;
+}
+
+.HOLIDAY-content{
+    align-items: center;
+    margin: auto;
+}
+
+.HOLIDAY-content h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 72px;
+    color: red;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.HOLIDAY-content h1 .span{
+    text-align: center;
+    font-size: 72px;
+    color: black;
+    font-weight: bold;
+}
+.HOLIDAY-content span{
+    isplay: block;
+    color: black;
+    font-sizde:24px;
+    font-weight: 400;
+    text-align: center;
+}
+.HOLIDAY-content p{
+    width: 1068px;
+    margin:0px auto;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 15px;
+    padding: 0px 100px;
+    line-height: 36px;
+}
+
+.holi-box{
+    margin-top: 45px;
+    position: relative;
+}
+.holibox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:20px ;
+
+}
+.holi-boxleft{
+    position: relative;
+    
+}
+.holi-boxleft img{
+    position: absolute;
+    left: 0;
+    top: -125px;
+    width: 674px;
+    height: 577px;
+}
+.holibox-right{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    
+
+}
+.holi-right img{   
+    width: 429px;
+    height: 440px;
+    margin-top:55px ;
+}
+.dis-pic{
+    position: absolute;
+    width:220px ;
+    height: 200px;
+    border-radius: 50%;
+    left: -50%;
+}
+.backcolor{
+    padding: 0;
+    margin: 0;
+    height: 229px;
+    background-color: #FF0000;
+    border-radius: 10px;
+    z-index: 100;
+}
+.card-section{
+    padding: 45px 0px;
+  
+
+}
+.card-content span{
+    font-size: 24px;
+    text-align: left;
+    color: #FF0000;
+    font-weight: 400;
+   
+
+}
+.card-content h1{
+    font-size: 48px;
+    text-align: left;
+    color: #070211;
+    font-weight: bold;
+    padding-top: 15px;
+
+}
+.card-content p{
+    width: 896px;
+    font-size: 20px;
+    text-align: left;
+    color: #070211;
+    padding-top: 25px;
+
+}
+.card-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 45px;
+}
+.box img{
+    width: 424px;
+    height: 450px;
+    margin-bottom: 20px;
+}
+/**card-section end**/
+/**section mail-section start code**/
+.main-section{
+    
+    align-items: center;
+    margin-top: 45px 0px;
+}
+.maiil-content{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffe5e5;
+}
+.mail-photo{
+    display:flex;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+.maiil-content h3{
+    font-size: 48px;
+    text-align: center;
+    padding-top: 25px 0px;
+    color: #070211;
+    font-weight: bold;
+}
+.maiil-content p{
+    width: 896px;
+    font-size: 20px;
+    color: #070211;
+    text-align: center;
+    padding-bottom:25px ;
+    margin: auto;
+}
+.form-section{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.maiil-content form{
+   
+    padding: 25px 0px 75px 0px;
+}
+.maiil-content  form input{
+    width: 450px;
+    height: 72px;
+    margin: auto;
+    text-align: left;
+    padding-left: 15px;
+    font-size: 20px;
+    color: #070211;
+    border-radius: 15px;
+    border: 0;
+}
+.maiil-content form button{
+    width: 210px;
+    height: 72px;
+    border: 0;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 0;
+}
+
+/** section mail-section end***/
+.footer{
+    background-color: #070211;
+    padding:100px 0px;
+    margin-top: 75px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.footer-left p{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 36px;
+
+}
+.footer-first-list{
+    display: block;
+    align-items: center;
+    margin-right: 200px;
+
+}
+.footer-first-list li{
+    list-style: none;
+    margin-top: 5px;
+ 
+
+}
+.footer-first-list li img{
+    margin-top: 5px;
+    width: 24px;
+    height: 24px;
+   
+}
+.footer-first-list li a{
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding-left: 15px;
+    text-decoration: none;
+}
+.icon-section{
+    padding: 45px 0px;
+}
+.icon-section ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-section ul li{
+    margin: 0px 10px;
+}
+.icon-section ul li img{
+    width: 64px;
+    height: 64px;
+}
+hr{
+    background: #FF0000;
+}
+.copy-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+.copy-right small{
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+}
